@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "127361906262",
+    "firebase_url": "https://iwillhealyou-d22ff.firebaseio.com",
+    "project_id": "iwillhealyou-d22ff",
+    "storage_bucket": "iwillhealyou-d22ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127361906262:android:b5cac693cad0c266",
+        "android_client_info": {
+          "package_name": "com.simplism.iwillhealyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127361906262-651lq1ngivm9f7reg1f3247kqk9f8c2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplism.iwillhealyou",
+            "certificate_hash": "58ac92d81f8213779356a67c1a0d8646e0034296"
+          }
+        },
+        {
+          "client_id": "127361906262-mkukamnbfgb2qq85n5tt9bug0g63ve96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplism.iwillhealyou",
+            "certificate_hash": "648478f92f875546f2e06bd1bd8cb8f5cba5c24d"
+          }
+        },
+        {
+          "client_id": "127361906262-cf97a5j80mibq4i1u508h1aap3os4flu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplism.iwillhealyou",
+            "certificate_hash": "cf82d03d7331543d029f9b85939bdd1d74fcddad"
+          }
+        },
+        {
+          "client_id": "127361906262-a1qvpofanp8gbelk6l0ie4dbgk7ottcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3GNNehlHIZDgh00yYt83bH5aLCf9Qh4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127361906262-a1qvpofanp8gbelk6l0ie4dbgk7ottcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
