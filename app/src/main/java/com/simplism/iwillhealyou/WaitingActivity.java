@@ -55,10 +55,11 @@ public class WaitingActivity extends AppCompatActivity {
                 boolean p2 = debate.p2;
                 boolean p3 = debate.p3;
                 boolean p4 = debate.p4;
-                if(p1 && p2 && p3 && p4) {
+                if(p1) { // 테스트를 위해서 p1만 들어와도 갈 수 있게 함
                     Toast.makeText(getApplicationContext(), "All people entered the room. Starting Debate...", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), Chat_activity.class);
                     startActivity(intent);
+                    finish();
                 }
                 if(p1) ivp1.setImageResource(R.drawable.ic_person_black_24dp);
                 if(p2) ivp2.setImageResource(R.drawable.ic_person_black_24dp);
