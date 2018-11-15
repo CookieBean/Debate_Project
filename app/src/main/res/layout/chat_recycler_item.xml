@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
+            android:textSize="15sp"
             android:gravity="start"
             android:text ="person" />
 
@@ -27,6 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:textSize="15sp"
                 android:text ="person" />
 
         </LinearLayout>
@@ -52,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
+            android:textSize="20sp"
             android:text ="text" />
 
         <View

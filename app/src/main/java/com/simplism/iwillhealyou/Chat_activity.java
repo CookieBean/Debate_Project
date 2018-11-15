@@ -61,7 +61,7 @@ public class Chat_activity extends BaseActivity{
 
         recycler.setHasFixedSize(true);
 
-        Query chatquery = mDatabase.child("chats").child(roomname)
+        Query chatquery = mDatabase.child("chats").child(roomname) // roomname안에서도 태그 나눠서 찬성팀 채팅, 반대팀 채팅, 전체 채팅으로 나눠서 해줘야 할듯
                 .limitToFirst(100);
 
         FirebaseRecyclerOptions<Chat> options = new FirebaseRecyclerOptions.Builder<Chat>()
