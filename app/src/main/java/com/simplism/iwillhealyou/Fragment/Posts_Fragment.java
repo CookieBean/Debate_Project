@@ -15,7 +15,7 @@ import com.simplism.iwillhealyou.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Posts_Fragment extends MainFragment {
+public class Posts_Fragment extends Fragment {
 
 
     public Posts_Fragment() {
@@ -30,6 +30,8 @@ public class Posts_Fragment extends MainFragment {
         return inflater.inflate(R.layout.fragment_posts_, container, false);
     }
 
+    /*
+
     @Override
     public Query getQuery(DatabaseReference databaseReference) {
         // [START recent_posts_query]
@@ -41,5 +43,7 @@ public class Posts_Fragment extends MainFragment {
 
         return recentPostsQuery;
     }
+
+    */
 
 }

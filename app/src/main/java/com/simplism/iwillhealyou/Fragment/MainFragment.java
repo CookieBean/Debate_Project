@@ -44,7 +44,6 @@ public abstract class MainFragment extends Fragment {
 
     //private FirebaseRecyclerAdapter<Recycler_debate_adapter, PostViewHolder> mAdapter;
     private DatabaseReference mDatabase;
-    private LinearLayoutManager mManager;
     public String roomname;
     private String topic;
 
@@ -78,7 +77,7 @@ public abstract class MainFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        mManager = new LinearLayoutManager(getActivity());
+        LinearLayoutManager mManager = new LinearLayoutManager(getActivity());
         mManager.setReverseLayout(true);
         mManager.setStackFromEnd(true);
         mRecycler.setLayoutManager(mManager);
