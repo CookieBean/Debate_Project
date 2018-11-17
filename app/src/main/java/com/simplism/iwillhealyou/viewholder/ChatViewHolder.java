@@ -56,7 +56,7 @@ public class ChatViewHolder extends RecyclerView.ViewHolder {
             rv.setVisibility(View.GONE);
             lv.setVisibility(View.GONE);
             rp.setVisibility(View.GONE);
-            lp.setVisibility(View.GONE);
+            lp.setVisibility(View.GONE); 
         } else {
             switch (chat.person) {
                 case "p1":
